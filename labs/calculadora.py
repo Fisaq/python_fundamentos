@@ -35,8 +35,8 @@ def menu():
         if op not in lista_op:
             print('\nOpção inválida, favor selecionar uma opção do menu!')
         else:
-            num1 = int(input('\nInforme o primeiro valor: '))
-            num2 = int(input('\nInforme o segundo valor: '))
+            num1 = float(input('\nInforme o primeiro valor: '))
+            num2 = float(input('\nInforme o segundo valor: '))
             if op == 1:
                 soma(num1,num2)
                 break
