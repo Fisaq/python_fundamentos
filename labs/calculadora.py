@@ -33,7 +33,7 @@ def menu():
         lista_op = [1, 2, 3, 4, 5]
 
         if op not in lista_op:
-            print('Opção inválida, favor selecionar uma opção do menu!')
+            print('\nOpção inválida, favor selecionar uma opção do menu!')
         else:
             num1 = int(input('\nInforme o primeiro valor: '))
             num2 = int(input('\nInforme o segundo valor: '))
